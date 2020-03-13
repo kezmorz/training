@@ -1,0 +1,10 @@
+.UserInput {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.UserInput > input[type="text"] {
+    font-size: large;
+}
