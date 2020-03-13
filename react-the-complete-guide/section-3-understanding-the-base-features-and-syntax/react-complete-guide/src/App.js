@@ -17,6 +17,7 @@ class App extends Component {
   // handler is a good naming practice when creating a function used with an event
   switchNameHandler = (newName) => {
     // this would not refer to the class if we didn't use ES6 arrow functions (i.e. if we used function())
+    // this is very important if we intend on passing the function as a reference 
     // this.state.persons[0].name = 'Maximilian'; // don't do this
     this.setState({
       persons: [
