@@ -1,6 +1,6 @@
-## Section 4 - Working with Lists and Conditionals
+## Section 5 - Styling React Components & Elements
 
 ### Useful Resources & Links
 
-* Conditional Rendering: https://reactjs.org/docs/conditional-rendering.html
-* Lists & Keys: https://reactjs.org/docs/lists-and-keys.html
+* Using CSS Modules in create-react-app Projects: https://medium.com/nulogy/how-to-use-css-modules-with-create-react-app-9e44bec2b5c2
+* More information about CSS Modules: https://github.com/css-modules/css-modules
