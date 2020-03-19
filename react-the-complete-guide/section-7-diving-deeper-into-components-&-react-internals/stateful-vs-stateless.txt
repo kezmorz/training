@@ -1,0 +1,9 @@
+Stateful:
+    - components that manage state
+    - generally Class based components
+    - stored in the containers directory
+
+Stateless:
+    - presentational or dumb components
+    - generally function based
+    - stored in the containers directory

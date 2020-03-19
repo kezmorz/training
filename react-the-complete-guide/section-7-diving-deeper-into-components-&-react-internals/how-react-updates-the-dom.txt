@@ -1,0 +1,6 @@
+How React Updates the DOM
+
+1. shouldComponentUpdate() passed (returns true)
+2. render() is called
+3. comparison between the Old Virtual DOM and the Re-rendered Virtual DOM
+4. only update the "real" DOM if there are differences found

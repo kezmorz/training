@@ -1,0 +1,14 @@
+Class-based Components:
+    - class XY extends Component
+        - Access to State
+        - Lifecycle Hooks
+    - Access State and Props via "this"
+        - this.state.x & this.props.x
+    - Use if you need to manange State or access to Lifecycle Hooks and you don't want to use React Hooks
+
+Functional Components:
+    - const XY = props => { }
+        - Access to State (useState())
+    - Access to Props via "props"
+        - props.x
+    - Use in all other cases
