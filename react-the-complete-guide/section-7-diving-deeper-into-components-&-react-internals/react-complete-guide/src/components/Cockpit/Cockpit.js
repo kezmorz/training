@@ -19,7 +19,7 @@ const cockpit = (props) => {
         return () => {
             console.log('[Cockpit.js] cleanup work in useEffect');
         }
-    }, [props.personsLength]);        // second parameter specifies when the effect should run (i.e. when props.persons is modified)
+    }, [props.personsLength]);        // second parameter specifies when the effect should run (i.e. when props.personsLength is modified)
 
     // this will behave similary to componentDidMount
     useEffect(() => {
